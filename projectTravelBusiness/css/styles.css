@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.3;
+}
+
+body {
+    font-family: Optima, Calibri, sans-serif;
+}
+
+.container {
+    max-width: 800px;/* 10240px;*/
+    margin: 0 auto;
+    clear: both;
+}
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.header {
+    background: url(/projectTravelBusiness/img/water-backgrnd.jpg);
+    background-attachment: fixed;
+    background-position: right center;
+    background-size: cover;
+    padding-bottom: 1em;
+    width: 100vw;
+    height: 60vh;
+
+}
+
+.header-image {
+    float: left;
+    width: 33%;
+    margin-top: 3em;
+    padding-right: 3em;
+    text-align: right;
+}
+
+.header-info {
+    float: right;
+    width: 67%;
+    margin-top: 4em;
+    color: white;
+}
+.surtitle {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size:large;  
+}
+
+nav {
+    border: 2px solid #141A26;
+    padding: .5em;
+    width: 300px;
+    text-align: center;
+    background-color:lightgray;
+    color:#96180c;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    float: left;
+    padding-right: 1.5em;
+}
+.self-clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.title{
+    /*margin-top:2em;*/
+    margin: .25em 0;
+    font-size: 3em; 
+    font-family: "Petit Formal Script";
+    margin-bottom: 0.5em;
+    text-align: center;
+    background-color: #141A26;
+}
+.intro {
+    margin: .5em 0 1.5em;
+    font-size: 1.25em;
+     
+}
+
+.btn {
+    max-height: 2.5em;
+    border: none;
+    padding: .75em 1.25em;
+    font-family: inherit;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    /*background-color: darkorchid; */
+    background-color: #A64037 /*dark purle*/
+}
+
+
+.description{
+    width: 100%;
+    padding: 1em 0;
+    font-size: 1.25em;
+    background-color: white;
+}
+.testimonials {
+    width: 100%;
+    padding: 1em 0;
+    font-size: 1.25em;
+    /*background-color: #5ce35cF2; Nice green*/
+    /*background: url(/img/water-backgrnd.jpg);*/
+    background-color: #5CE3F2;
+}
+.testimonials-text {
+    float: left;
+    width: 75%;
+}
+
+.testimonial {
+    margin-bottom: .75em;
+   font-family: 'Kaushan Script', cursive;
+   /*font-family: 'Reenie Beanie', cursive; */
+    font-size: 20px;
+    color: #141A26;
+}
+
+.testimonials-image {
+    float: right;
+    height: 98px ;
+    border: 6px solid #A64037;
+}
+.product-versions-title {
+    padding: 1em 0;
+    font-size: 2em;
+    text-align: center;
+}
+.vacation-packages {
+    padding: 1em 0;
+    /*background-color: rgb(43, 30, 224);*/
+    /*background: url(/img/water-backgrnd.jpg); */
+    background-color:#0487D9;
+}
+.vacation-package {
+    float: left;
+    width: 33.33%;
+    border: 1px solid gray;
+    text-align: center;
+    background-color: white;
+}
+.vac-image {
+    width: 95%;
+    height: 375px;
+}
+
+.activity-item {
+    border-bottom: 1px solid gray;
+    width: 100%;
+    padding: .60em 0;
+    font-size: 1.25em;
+}
+.activity-item-feature{
+    border-bottom: 1px solid gray;
+    width: 100%;
+    padding: .60em 0;
+    font-size: 1.25em;
+    color:#96180c;
+    background-color: #FFFF00;
+}
+.activity-item:last-child {
+    border-bottom: 0;
+}
+
+
+
+.vacation--title {
+    padding: .75em 0;
+    font-size: 1.5em;
+}
+
+.btn-plain {
+    font-weight: normal;
+    color: black;
+    background-color: lightgray;
+}
+
+.btn-plain-featured {
+    font-weight: normal;
+    color:#96180c;
+    background-color: #FFFF00;
+}
+
+.social {
+    padding: 1em 0;
+    font-size: 1.5em;
+    text-align: center;    
+}
+
+.social-links {
+    margin-top: .75em;
+}
+
+.social-link {
+    margin: 0 .25em;
+}
+
+.footer {
+
+    padding: 1em 0;
+    font-variant: small-caps;
+    text-align: center;
+    background-color: lightgray;
+}
+/*
+footer p {
+    padding: 0 1.5em;
+} */
+
+.footer-links {
+    margin-bottom: .75em;
+    font-size: 1.5em;
+}
+
+
+.footer-link {
+    margin: 0 .5em;
+} 
+
+.copyright {
+    font-style: italic;
+    font-size: 1em;
+}
+
+.ft{
+    padding: 1.5em 2em;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    color: #d95b43;
+    text-decoration: underline;
+}
+
+.goback {
+    text-align: left;
+}
+
+
